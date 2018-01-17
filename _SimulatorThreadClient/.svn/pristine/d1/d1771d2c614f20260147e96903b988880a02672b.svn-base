@@ -1,0 +1,26 @@
+package com.cmcc.simulator.client;
+//import java.io.* ;
+public class ThreadClient{
+	public static void main(String args[]) throws Exception {	// 所有异常抛出
+		for(int i=4920;i<10000;i++)
+		{
+			new Thread(new StepcountPackageThread(i+1)).start() ;	// 每一个客户端表示一个线程
+		}
+//		for(int i=0;i<80;i++)
+//		{
+//			new Thread(new PacketHandleThread(i)).start() ;	// 每一个客户端表示一个线程
+//		}
+//		for(int i=0;i<80;i++)
+//		{
+//			new Thread(new PacketHandleThread(i)).start() ;	// 每一个客户端表示一个线程
+//		}
+//		for(int i=0;i<80;i++)
+//		{
+//			new Thread(new PacketHandleThread(i)).start() ;	// 每一个客户端表示一个线程
+//		}
+//		for(int i=0;i<80;i++)
+//		{
+//			new Thread(new PacketHandleThread(i)).start() ;	// 每一个客户端表示一个线程
+//		}
+	}
+};

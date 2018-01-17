@@ -1,0 +1,70 @@
+package com.bsr.simulator.utils;
+
+public class ConfUtil {
+
+	public static final int port = 8080;
+	public static final int clientCount = 60;
+	public static final String[] deviceStr = new String[clientCount];
+	static{
+		deviceStr[0] =  "BPTest001";
+		deviceStr[1] =  "TTTT20130001";
+		deviceStr[2] =  "TTTT20130002";
+		deviceStr[3] =  "TTTT20130003";
+		deviceStr[4] =  "TTTT20130004";
+		deviceStr[5] =  "TTTT20130005";
+		deviceStr[6] =  "TTTT20130006";
+		deviceStr[7] =  "TTTT20130007";
+		deviceStr[8] =  "TTTT20130008";
+		deviceStr[9] =  "TTTT20130009";
+		deviceStr[10] = "TTTT20130010";
+		deviceStr[11] = "TTTT20130011";
+		deviceStr[12] = "TTTT20130012";
+		deviceStr[13] = "TTTT20130013";
+		deviceStr[14] = "TTTT20130014";
+		deviceStr[15] = "TTTT20130015";
+		deviceStr[16] = "TTTT20130016";
+		deviceStr[17] = "TTTT20130017";
+		deviceStr[18] = "TTTT20130018";
+		deviceStr[19] = "TTTT20130019";
+		deviceStr[20] = "TTTT20130020";
+		deviceStr[21] = "TTTT20130021";
+		deviceStr[22] = "TTTT20130022";
+		deviceStr[23] = "TTTT20130023";
+		deviceStr[24] = "TTTT20130024";
+		deviceStr[25] = "TTTT20130025";
+		deviceStr[26] = "TTTT20130026";
+		deviceStr[27] = "TTTT20130027";
+		deviceStr[28] = "TTTT20130028";
+		deviceStr[29] = "TTTT20130029";
+		deviceStr[30] = "TTTT20130030";
+		deviceStr[31] = "TTTT20130031";
+		deviceStr[32] = "TTTT20130032";
+		deviceStr[33] = "TTTT20130033";
+		deviceStr[34] = "TTTT20130034";
+		deviceStr[35] = "TTTT20130035";
+		deviceStr[36] = "TTTT20130036";
+		deviceStr[37] = "TTTT20130037";
+		deviceStr[38] = "TTTT20130038";
+		deviceStr[39] = "TTTT20130039";
+		deviceStr[40] = "TTTT20130040";
+		deviceStr[41] = "TTTT20130041";
+		deviceStr[42] = "TTTT20130042";
+		deviceStr[43] = "TTTT20130043";
+		deviceStr[44] = "TTTT20130044";
+		deviceStr[45] = "TTTT20130045";
+		deviceStr[46] = "TTTT20130046";
+		deviceStr[47] = "TTTT20130047";
+		deviceStr[48] = "TTTT20130048";
+		deviceStr[49] = "TTTT20130049";
+		deviceStr[50] = "TTTT20130050";
+		deviceStr[51] = "TTTT20130051";
+		deviceStr[52] = "TTTT20130052";
+		deviceStr[53] = "TTTT20130053";
+		deviceStr[54] = "TTTT20130054";
+		deviceStr[55] = "TTTT20130055";
+		deviceStr[56] = "TTTT20130056";
+		deviceStr[57] = "TTTT20130057";
+		deviceStr[58] = "TTTT20130058";
+		deviceStr[59] = "TTTT20130059";
+	}
+}
